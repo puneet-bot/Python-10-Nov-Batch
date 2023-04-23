@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+    font-family: 'Caveat', cursive;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Shantell Sans', cursive;
+    font-family: 'Tilt Prism', cursive;
+}
+
+main,
+aside {
+  display: inline-block;
+  vertical-align: top;
+  height: 100vh;
+  margin: 1%;
+}
+
+main {
+  width: 80%;
+}
+
+aside {
+  width: 15%;
+  margin-left: -4px;
+  height: 80vh;
+  border: 2px solid rgba(212, 205, 205, 0.467);
+  overflow-y:scroll;
+}
+
+aside::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cricketer-pic{
+    border-radius: 30px;
+    border-top-left-radius: 170px;
+}
+
+.country-logo{
+    top: -30px;
+    position: absolute;
+    left: 0px;
+    border-radius: 50%;
+}
+
+.small-boxes {
+  height: 400px;
+  width: 400px;
+  margin: 20px;
+  position: relative;
+}
+
+.cricker-name{
+    visibility: hidden;
+    position: absolute;
+    bottom: 20px;
+    /* left: 0px; */
+    text-align: center;
+    background-color: rgba(143, 114, 231, 0.285);
+    width: 100%;
+    color: white;
+    font-size: 50px;
+    font-family: 'Secular One', sans-serif;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+.small-boxes:hover .cricker-name{
+    visibility: visible;
+}
+
+.aside-crick-name{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 15px;
+    
+}
+
+

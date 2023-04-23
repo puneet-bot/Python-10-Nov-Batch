@@ -1,0 +1,14 @@
+@media (min-width: 300px) and (max-width: 768px) {
+    /* CSS rules go here */
+    main{
+        background-color: green;
+        width: 90%;
+        justify-content: center;
+      }
+      aside{
+        display: none;
+      }
+      #fav-head{
+        font-size: 28px;
+      }
+  }
