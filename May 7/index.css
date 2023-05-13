@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+#search-icon{
+    background-color: transparent;
+    width: 200px;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+}
+#search-div{
+    /* margin-left:30%;
+    margin-top: 20%; */
+    color:white;
+    font-size: 20px;
+    height: 20px;
+}
+
+/* #search-div i {
+    height: 40px;
+} */
+#search-menu{
+    display: inline-block;
+    border: 2px solid rgb(31, 28, 28);
+    /* padding: 5px; */
+}
+
+#mic{
+    border-right: 2px solid rgb(31, 28, 28);;
+    /* padding: 10px; */
+    display: inline-block;
+}
+
+#glass{
+    border-left: 2px solid rgb(31, 28, 28);
+    /* padding: 10px; */
+    display: inline-block;
+}
+
+/* .fa-microphone{
+    margin-top: 20px;
+}
+
+.fa-glass{
+    margin-top: 20px;
+} */

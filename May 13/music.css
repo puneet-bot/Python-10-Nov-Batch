@@ -1,0 +1,49 @@
+*{
+    padding:0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+main{
+    display: inline-block;
+    width: 80%;
+    color:white;
+}
+aside{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-left: -4px;
+    height: 90vh;
+}
+#play-head:hover{
+    text-decoration: underline;
+}
+.play-content{
+    width: 370px;
+    height: 75px;
+    background-color: rgba(27, 25, 25, 0.514);
+    margin: 5px;
+}
+.play-content>*{
+    display: inline-block;
+    vertical-align: text-top;
+}
+.para,.play-btn{
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 75px;
+}
+.play-btn{
+    font-size: 50px;
+    right: 0px;
+    visibility: hidden;
+}
+
+.play-content:hover .play-btn{
+    visibility: visible;
+}

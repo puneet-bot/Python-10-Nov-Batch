@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12,16,39);
+    color: white;
+}
+
+/* Navbar styles */
+navbar{
+    display: inline-block;
+    background-color: transparent;    
+    width: 100%;
+}
+navbar main{
+    display: inline-block;
+    width: 75%;
+}
+navbar aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin-left: -5px;
+}
+navbar main>*,
+navbar aside>*{
+    display: inline-block;
+}
+navbar aside>*{
+    margin-right:10px;
+}
+#music-logo{
+    font-size: 50px;
+    left: 2%;
+    position: absolute;
+}
+#music-brand-name{
+    font-size: 30px;
+    left: 7%;
+}
+#fav-list,
+#music-brand-name{
+    position: absolute;
+    top:20px;
+}
+#fav-list{
+    left: 25%;
+    top:25px;
+}
+
+#search-music,
+#music-notification,
+#owner{
+    position: absolute;
+    top:20px;
+}
+
+#search-music{
+    width: 200px;
+    border-radius: 5px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid grey;
+    padding: 5px;
+    color: white;
+    right: 10%;
+}
+#music-notification{
+    font-size: 30px;
+    right: 6%;
+    top: 15px;
+    animation: 3s infinite alternate example;
+}
+
+#owner{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    right: 2%;
+    top: 10px;
+}
+
+@keyframes example {
+    from {
+        transform: rotate(45deg);
+    }
+    to {transform: rotate(-45deg);}
+  }
